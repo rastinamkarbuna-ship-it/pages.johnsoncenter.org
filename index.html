@@ -1,0 +1,218 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Johnson Center | Elevating Business Excellence</title>
+    <meta name="google-site-verification" content="qb_J7QxbV4QljDQ7INgBaZ1MTABWoSb_T4_pQNR9RmI" />
+    <meta name="description" content="Johnson Center adalah pusat keunggulan bisnis dan konsultasi strategis. Kami membantu perusahaan mencapai potensi maksimal melalui inovasi dan kepemimpinan.">
+    <meta name="keywords" content="Johnson Center, business consulting, corporate strategy, kepemimpinan bisnis, konsultasi perusahaan, johnson center pages">
+    <meta name="author" content="Johnson Center">
+    <meta name="robots" content="index, follow">
+    
+    <link rel="canonical" href="https://pages.johnsoncenter.org/" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;800&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --primary-dark: #0f172a; /* Deep Navy */
+            --accent-gold: #cda434;  /* Metallic Gold */
+            --text-light: #f8fafc;
+            --text-muted: #94a3b8;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Lato', sans-serif;
+            background-color: var(--primary-dark);
+            color: var(--text-light);
+            line-height: 1.7;
+        }
+
+        /* NAVIGATION BAR */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            padding: 25px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(15, 23, 42, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(205, 164, 52, 0.2);
+            z-index: 1000;
+        }
+
+        /* LOGO FONT ONLY */
+        .logo-text {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: var(--text-light);
+            text-decoration: none;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+        }
+
+        .logo-text span {
+            color: var(--accent-gold);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: var(--text-light);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 400;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--accent-gold);
+        }
+
+        /* HERO SECTION */
+        .hero {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0 8%;
+            background: linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.95)), url('hero-bg.jpg') center/cover;
+            border-bottom: 2px solid var(--accent-gold);
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(3rem, 6vw, 5rem);
+            line-height: 1.1;
+            margin-bottom: 20px;
+            max-width: 800px;
+            color: var(--text-light);
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: var(--text-muted);
+            max-width: 600px;
+            margin-bottom: 40px;
+        }
+
+        .btn-gold {
+            display: inline-block;
+            padding: 15px 40px;
+            background-color: transparent;
+            color: var(--accent-gold);
+            border: 1px solid var(--accent-gold);
+            text-decoration: none;
+            font-size: 0.9rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            transition: all 0.4s ease;
+        }
+
+        .btn-gold:hover {
+            background-color: var(--accent-gold);
+            color: var(--primary-dark);
+        }
+
+        /* FOOTER */
+        footer {
+            background-color: #080c17;
+            padding: 60px 8% 30px;
+        }
+
+        .footer-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap: 20px;
+        }
+
+        /* GAMBAR FOOTER */
+        .footer-image {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid var(--accent-gold);
+            padding: 5px;
+            margin-bottom: 15px;
+        }
+
+        .footer-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            color: var(--accent-gold);
+        }
+
+        .copyright {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            text-align: center;
+            width: 100%;
+        }
+
+        @media (max-width: 768px) {
+            .nav-links { display: none; }
+            .hero h1 { font-size: 2.5rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="https://pages.johnsoncenter.org" class="logo-text">Johnson<span>Center</span></a>
+        <ul class="nav-links">
+            <li><a href="#">Expertise</a></li>
+            <li><a href="#">Insights</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <h1>Shaping the Future of Business.</h1>
+        <p>Kami memberikan wawasan strategis dan solusi kepemimpinan untuk membawa perusahaan Anda menuju keunggulan global.</p>
+        <div>
+            <a href="#consultation" class="btn-gold">Discover Our Expertise</a>
+        </div>
+    </section>
+              <div style="display: none;">
+     <a href="https://www.shortlyai.com/privacy/">https://www.shortlyai.com/privacy/</a>
+     <a href="https://www1.yellowjacket.com/">Bosmujur</a>
+</div>
+    <footer>
+        <div class="footer-content">
+            <img src="johnson-emblem.jpg" alt="Johnson Center Emblem" class="footer-image">
+            <div class="footer-title">JOHNSON CENTER</div>
+            <p style="color: var(--text-muted); max-width: 400px;">
+                Strategic Business Consulting & Corporate Leadership.
+            </p>
+        </div>
+        <div class="copyright">
+            &copy; 2026 Johnson Center. All Rights Reserved. | <a href="https://pages.johnsoncenter.org" style="color: var(--accent-gold); text-decoration: none;">pages.johnsoncenter.org</a>
+        </div>
+    </footer>
+
+</body>
+</html>
